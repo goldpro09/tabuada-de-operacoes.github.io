@@ -1,0 +1,52 @@
+/* NOTO SANAS URL */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+/* STYLE */
+
+body {
+    background-color: #3e6ff5;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 14px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px;
+}
+input {
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    margin-bottom: 12px;
+    border: .1px solid #0044ff;
+    outline: none;
+    cursor: pointer;
+    background-color: honeydew;
+    transition: box-shadow .1s ease-in-out, border-color 0.5s ease-in-out;
+}
+input:hover {
+    box-shadow: 0 0 5px rgb(0, 162, 255),
+                0 0 20px rgb(0 162 255 / 0.8),
+                0 0 35px rgb(0 162 255 / 0.7),
+                0 0 50px rgb(0 162 255 / 0.6);
+    border-color: #fff;
+}
+input:active {
+    border: .1px solid #0044ff;
+    box-shadow: 0 0 5px honeydew;
+}
+.left {
+    margin-left: 47px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
